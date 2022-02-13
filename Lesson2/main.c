@@ -1,89 +1,16 @@
 
 int main() {
-  unsigned int counter = 0;
+  int counter = 0;
 
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-  ++counter;
-
-
+  while(counter < 21) {
+    ++counter;
+    if((counter & 1) != 0) {
+      /* Do something when the counter is odd */
+    }
+    else {
+            /* Do something when the counter is even */
+    }
+  }
 
   return 0;
 }

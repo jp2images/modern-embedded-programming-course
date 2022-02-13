@@ -24,18 +24,18 @@ rule PDBLINK
 
 
 #Build steps
-build D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file D$:\source\repos\Embedded\embedded_programming\Lesson1\main.c -xcl_file D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.xcl -macro_file D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.tmp -icc_path "D$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
-  flags = D$:\source\repos\Embedded\embedded_programming\Lesson1\main.c -o D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.tmp
-  rspfile_name = D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.xcl.rsp
+build D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\source\repos\Embedded\embedded_programming\Lesson2\main.c -xcl_file D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.xcl -macro_file D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.tmp -icc_path "D$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\source\repos\Embedded\embedded_programming\Lesson2\main.c -o D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "D$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.tmp
+  rspfile_name = D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.xcl.rsp
 
-build D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.pbi : INDEXER D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.xcl |  $
-D$:\source\repos\Embedded\embedded_programming\Lesson1\main.c
-  flags = -out=D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.pbi -f D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.xcl
+build D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.pbi : INDEXER D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.xcl |  $
+D$:\source\repos\Embedded\embedded_programming\Lesson2\main.c
+  flags = -out=D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.pbi -f D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.xcl
 
-build D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\project.pbw : MAKEBROWSE D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\project.pbd
-  flags = D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\project.pbd -output D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\project.pbw
+build D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\project.pbw : MAKEBROWSE D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\project.pbd
+  flags = D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\project.pbd -output D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\project.pbw
 
-build D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\project.pbd : PDBLINK D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.pbi
-  flags = -M D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\project.pbd D$:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.pbi
+build D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\project.pbd : PDBLINK D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.pbi
+  flags = -M D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\project.pbd D$:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.pbi
 

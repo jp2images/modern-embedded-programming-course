@@ -1,15 +1,15 @@
-"D:\source\repos\Embedded\embedded_programming\Lesson1\main.c"
+"D:\source\repos\Embedded\embedded_programming\Lesson2\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.pbi.dep
+D:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.pbi.dep
 -o
-D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\BrowseInfo\main.pbi
+D:\source\repos\Embedded\embedded_programming\Lesson2\Debug\BrowseInfo\main.pbi
 -I
-D:\source\repos\Embedded\embedded_programming\Lesson1
+D:\source\repos\Embedded\embedded_programming\Lesson2
 -I
 D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I

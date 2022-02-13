@@ -7,7 +7,7 @@
     "location": {
       "column": "5",
       "line": "2",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson1\\main.c"
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson2\\main.c"
     },
     "name": "main",
     "origin": "project_file",
@@ -19,9 +19,9 @@
     "defdec": "Def",
     "display": "counter",
     "location": {
-      "column": "16",
+      "column": "7",
       "line": "3",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson1\\main.c"
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson2\\main.c"
     },
     "name": "counter",
     "origin": "project_file",
