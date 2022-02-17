@@ -96269,13 +96269,69 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@941@macro@LED_OFF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_OFF",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@960@macro@LED_RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_RED",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+    },
+    "name": "LED_RED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@987@macro@LED_BLU",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_BLU",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+    },
+    "name": "LED_BLU",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1014@macro@LED_GRN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_GRN",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+    },
+    "name": "LED_GRN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@delayLoop",
     "What": "Function",
     "defdec": "Def",
     "display": "void delayLoop(int)",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "31",
       "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
     },
     "name": "delayLoop",
@@ -96283,13 +96339,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@572@F@delayLoop@counter",
+    "ID": "c:main.c@1069@F@delayLoop@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
       "column": "16",
-      "line": "20",
+      "line": "32",
       "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
     },
     "name": "counter",
@@ -96303,7 +96359,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "26",
+      "line": "38",
       "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
     },
     "name": "main",
@@ -96311,13 +96367,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1102@F@main@loopCount",
+    "ID": "c:main.c@1728@F@main@loopCount",
     "What": "Variable",
     "defdec": "Def",
     "display": "loopCount",
     "location": {
       "column": "7",
-      "line": "38",
+      "line": "63",
       "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
     },
     "name": "loopCount",
