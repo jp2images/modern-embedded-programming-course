@@ -96269,56 +96269,56 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@867@macro@LED_OFF",
+    "ID": "c:main.c@58@macro@LED_OFF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_OFF",
     "location": {
       "column": "9",
-      "line": "22",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "4",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "LED_OFF",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@886@macro@LED_RED",
+    "ID": "c:main.c@77@macro@LED_RED",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_RED",
     "location": {
       "column": "9",
-      "line": "23",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "5",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "LED_RED",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@913@macro@LED_BLU",
+    "ID": "c:main.c@104@macro@LED_BLU",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_BLU",
     "location": {
       "column": "9",
-      "line": "24",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "6",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "LED_BLU",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@940@macro@LED_GRN",
+    "ID": "c:main.c@131@macro@LED_GRN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_GRN",
     "location": {
       "column": "9",
-      "line": "25",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "7",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "LED_GRN",
     "origin": "project_file",
@@ -96331,22 +96331,22 @@
     "display": "void delayLoop(int)",
     "location": {
       "column": "6",
-      "line": "27",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "9",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "delayLoop",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@995@F@delayLoop@counter",
+    "ID": "c:main.c@186@F@delayLoop@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
       "column": "16",
-      "line": "28",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "10",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "counter",
     "origin": "project_file",
@@ -96359,22 +96359,22 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "34",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "16",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1654@F@main@loopCount",
+    "ID": "c:main.c@596@F@main@loopCount",
     "What": "Variable",
     "defdec": "Def",
     "display": "loopCount",
     "location": {
       "column": "7",
-      "line": "59",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson6\\main.c"
+      "line": "24",
+      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson7\\main.c"
     },
     "name": "loopCount",
     "origin": "project_file",
