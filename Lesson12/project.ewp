@@ -340,6 +340,9 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>D:\ti\TivaWare_C_Series-2.2.0.295\inc</state>
+                    <state>D:\ti\TivaWare_C_Series-2.2.0.295\driverlib</state>
+                    <state>D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\TexasInstruments</state>
+                    <state>D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\Core\Include</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -655,7 +658,7 @@
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
+                <hasPrio>112</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -2128,9 +2131,12 @@
         <name>$PROJ_DIR$\delay.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\lm4f120h5qr.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h</name>
+        <name>$PROJ_DIR$\tm4c_cmsis.h</name>
     </file>
 </project>
