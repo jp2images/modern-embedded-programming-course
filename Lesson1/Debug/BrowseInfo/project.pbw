@@ -7,21 +7,21 @@
     "location": {
       "column": "5",
       "line": "2",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson1\\main.c"
+      "path": "C:\\source\\repos\\Embedded\\embedded_programming\\Lesson1\\main.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@18@F@main@counter",
+    "ID": "c:main.c@44@F@main@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
-      "column": "16",
-      "line": "3",
-      "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson1\\main.c"
+      "column": "18",
+      "line": "4",
+      "path": "C:\\source\\repos\\Embedded\\embedded_programming\\Lesson1\\main.c"
     },
     "name": "counter",
     "origin": "project_file",

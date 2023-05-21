@@ -1,22 +1,22 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.2.320/W64 for ARM                  12/Feb/2022  11:05:07
-# Copyright 2007-2021 IAR Systems AB.
+# IAR ELF Linker V9.20.4.327/W64 for ARM                  21/May/2023  09:36:22
+# Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
-#        D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Exe\project.out
+#        C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Exe\project.out
 #    Map file     =
-#        D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\List\project.map
+#        C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\List\project.map
 #    Command line =
 #        -f
-#        D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Exe\project.out.rsp
-#        (D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj\main.o
+#        C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Exe\project.out.rsp
+#        (C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj\main.o
 #        --no_out_extension -o
-#        D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Exe\project.out
+#        C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Exe\project.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\List\project.map
-#        --config "D:\Program Files\IAR Systems\Embedded Workbench
+#        C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\List\project.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
 #        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
@@ -99,7 +99,7 @@ command line/config:
     ----------------------------------
     Total:
 
-D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj: [1]
+C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj: [1]
     main.o                146
     ----------------------------------
     Total:                146
@@ -167,7 +167,7 @@ exit                        0x11b   0x4  Code  Gb  exit.o [2]
 main                         0x41  0x92  Code  Gb  main.o [1]
 
 
-[1] = D:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj
+[1] = C:\source\repos\Embedded\embedded_programming\Lesson1\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a

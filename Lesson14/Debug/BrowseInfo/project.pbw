@@ -138359,16 +138359,16 @@
     "scope": null
   },
   {
-    "ID": "c:@__vector_Table",
+    "ID": "c:@__vector_table",
     "What": "Variable",
     "defdec": "Def",
-    "display": "__vector_Table",
+    "display": "__vector_table",
     "location": {
       "column": "11",
-      "line": "7",
+      "line": "6",
       "path": "D:\\source\\repos\\Embedded\\embedded_programming\\Lesson14\\startup_tm4c.c"
     },
-    "name": "__vector_Table",
+    "name": "__vector_table",
     "origin": "project_file",
     "scope": null
   }
