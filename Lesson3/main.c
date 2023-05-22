@@ -2,15 +2,16 @@
 int counter = 0;
 
 int main() {
-  int* p_int;
-  p_int = &counter;
+    int* p_int;
+    p_int = &counter;
 
-  while(*p_int < 21) {
-    ++(*p_int);
-  }
+    //while(counter < 21) {
+    while(*p_int < 21) {
+        //++counter;
+        ++(*p_int);
+    }
 
-  p_int = (int*)0x20000023;
-  *p_int = 0xDEADBEEF;
-
-  return 0;
+    p_int = (int*)0x20000024U;
+    *p_int = 0xDEADBEEF;
+    return 0;
 }
